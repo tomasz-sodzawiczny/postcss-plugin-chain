@@ -1,0 +1,40 @@
+{
+  "name": "postcss-plugin-chain",
+  "version": "1.0.0",
+  "description": "Utility for chaining multiple plugins as one",
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "plugin",
+    "chain",
+    "chaining"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/tomasz-sodzawiczny/postcss-plugin-chain.git",
+  "homepage": "https://github.com/tomasz-sodzawiczny/postcss-plugin-chain#readme",
+  "bugs": "https://github.com/tomasz-sodzawiczny/postcss-plugin-chain/issues",
+  "author": "Tomasz Sodzawiczny <tsodzawiczny@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prepublishOnly": "yarn lint && yarn build",
+    "lint": "eslint src/**/*.js",
+    "build": "babel src/index.js -o index.js"
+  },
+  "dependencies": {
+    "postcss": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  }
+}
