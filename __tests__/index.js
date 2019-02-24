@@ -1,9 +1,9 @@
-// global: describe
 import postcss from "postcss";
 import circlePlugin from "postcss-circle";
 import sizePlugin from "postcss-size";
 
-import chainPlugins from "../src/index";
+// eslint-disable-next-line import/no-unresolved
+import chainPlugins from "../index";
 
 const css = `
 .circle {
