@@ -19,10 +19,10 @@
     "index.js"
   ],
   "scripts": {
-    "prepublishOnly": "yarn lint && yarn test && yarn build",
-    "lint": "eslint src/**/*.js __tests__/**/*.js",
+    "prepublishOnly": "yarn test",
     "pretest": "yarn build",
-    "test": "jest",
+    "test": "yarn lint && yarn jest",
+    "lint": "eslint src/**/*.js __tests__/**/*.js",
     "build": "babel src/index.js -o index.js"
   },
   "dependencies": {
