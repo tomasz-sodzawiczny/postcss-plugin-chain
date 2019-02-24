@@ -1,5 +1,9 @@
 # postcss-plugin-chain
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![NPM version](https://img.shields.io/npm/v/postcss-plugin-chain.svg)](https://www.npmjs.com/package/postcss-plugin-chain)
+[![Build Status](https://img.shields.io/travis/tomasz-sodzawiczny/postcss-plugin-chain.svg)](https://travis-ci.org/tomasz-sodzawiczny/postcss-plugin-chain)
+
 Utility for chaining multiple [PostCSS](https://postcss.org/) plugins as a single one.
 
 ```js
