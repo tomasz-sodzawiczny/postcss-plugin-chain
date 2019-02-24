@@ -1,10 +1,10 @@
-# postcss-plugin-chain
+# postcss-plugin-chain [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][postcss]
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![NPM version](https://img.shields.io/npm/v/postcss-plugin-chain.svg)](https://www.npmjs.com/package/postcss-plugin-chain)
-[![Build Status](https://img.shields.io/travis/tomasz-sodzawiczny/postcss-plugin-chain.svg)](https://travis-ci.org/tomasz-sodzawiczny/postcss-plugin-chain)
+[![License: MIT][mit-img]][mit-url]
+[![NPM version][npm-img]][npm-url]
+[![Build Status][build-img]][build-url]
 
-Utility for chaining multiple [PostCSS](https://postcss.org/) plugins as a single one.
+Utility for chaining multiple [PostCSS] plugins as a single one.
 
 ```js
 // Define the plugin:
@@ -29,7 +29,7 @@ yarn add --dev postcss-plugin-chain
 
 `chainPlugins()` function accepts 2 parameters: `pluginName` and `pluginsToChain` - both pretty self-explanatory.
 
-Returned value is an asynchronous [postcss plugin](http://api.postcss.org/postcss.html#.plugin).
+Returned value is an asynchronous [postcss plugin].
 
 ## Options
 
@@ -47,3 +47,17 @@ const chainedPlugin = chainPlugins('options-example', [
 ## License
 
 [MIT](./LICENSE)
+
+<!-- badges -->
+
+[mit-img]: https://img.shields.io/badge/License-MIT-blue.svg
+[mit-url]: https://opensource.org/licenses/MIT
+[npm-img]: https://img.shields.io/npm/v/postcss-plugin-chain.svg
+[npm-url]: https://www.npmjs.com/package/postcss-plugin-chain
+[build-img]: https://img.shields.io/travis/tomasz-sodzawiczny/postcss-plugin-chain.svg
+[build-url]: https://travis-ci.org/tomasz-sodzawiczny/postcss-plugin-chain
+
+<!-- links -->
+
+[postcss]: https://postcss.org/
+[postcss plugin]: http://api.postcss.org/postcss.html#.plugin
